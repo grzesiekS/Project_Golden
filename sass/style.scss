@@ -258,6 +258,10 @@ body {
 			&:hover {
 				transform: scale(1.2);
 			}
+
+			.icon_desc {
+				display: none;
+			}
 		}
 	}
 

@@ -243,6 +243,10 @@ body {
   transform: scale(1.2);
 }
 
+.social_media .icons a .icon_desc {
+  display: none;
+}
+
 .social_media p {
   font-size: 14px;
 }
