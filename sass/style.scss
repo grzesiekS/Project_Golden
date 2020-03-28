@@ -187,10 +187,32 @@ body {
 	}
 
 	.portfolio_img {
+		position: relative;
+		overflow: hidden;
+
 		img {
 			width: 100%;
 			height: 100%;
 			object-fit: cover;
+			transition: 1s all;
+		}
+
+		.btn {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			display: none;
+		}
+
+		&:hover {
+			.btn {
+				display: block;
+			}
+
+			img {
+				transform: scale(1.2);
+			}
 		}
 	}
 
