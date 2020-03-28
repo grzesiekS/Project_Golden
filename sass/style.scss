@@ -46,6 +46,15 @@ body {
 	font-weight: 400;
 }
 
+.desc_title 
+{
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: -0.45px;
+	margin-bottom: 18px;
+
+}
+
 /* Splash */
 .nav_bar {
 	position: relative;
@@ -162,13 +171,6 @@ body {
 		font-size: 14px;
 		letter-spacing: -0.35px;
 
-		.desc_title {
-			font-size: 18px;
-			font-weight: 700;
-			letter-spacing: -0.45px;
-			margin-bottom: 18px;
-
-		}
 	}
 }
 
@@ -199,10 +201,7 @@ body {
 
 @media (max-width: 767px) {
 	.btn {
-		width: 150px;
-		height: 40px;
-		font-size: 11px;
-		padding: 13px 0;
+		transform: scale(0.7);
 	}
 
 	/*Splash*/

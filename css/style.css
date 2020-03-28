@@ -36,6 +36,13 @@ body {
   font-weight: 400;
 }
 
+.desc_title {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.45px;
+  margin-bottom: 18px;
+}
+
 /* Splash */
 .nav_bar {
   position: relative;
@@ -152,13 +159,6 @@ body {
   letter-spacing: -0.35px;
 }
 
-.services .service_desc .desc_title {
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: -0.45px;
-  margin-bottom: 18px;
-}
-
 @media (min-width: 768px) and (max-width: 991px) {
   /* Splash */
   .nav_bar ul li a {
@@ -171,10 +171,7 @@ body {
 
 @media (max-width: 767px) {
   .btn {
-    width: 150px;
-    height: 40px;
-    font-size: 11px;
-    padding: 13px 0;
+    transform: scale(0.7);
   }
   /*Splash*/
   .nav_bar .logo {
