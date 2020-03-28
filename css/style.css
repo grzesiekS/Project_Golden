@@ -25,7 +25,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   line-height: 75px;
-  margin: 85px 0 0 0;
+  margin: 35px 0 0 0;
 }
 
 .section_subtitle {
@@ -136,6 +136,7 @@ body {
 /* Services */
 .services {
   text-align: center;
+  padding: 70px 0;
 }
 
 .services [class^="col-"] {
@@ -157,6 +158,40 @@ body {
   color: #777777;
   font-size: 14px;
   letter-spacing: -0.35px;
+  margin: 0 0 50px;
+}
+
+/* Portflio */
+.portfolio {
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 70px 0;
+}
+
+.portfolio [class^="col-"] div {
+  background-color: #ffffff;
+}
+
+.portfolio .portfolio_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.portfolio .desc_title {
+  margin: 0;
+  padding-top: 29px;
+}
+
+.portfolio .portfolio_desc {
+  margin: 0 0 50px;
+}
+
+.portfolio .portfolio_desc p {
+  margin: 0;
+  padding-bottom: 27px;
+  font-size: 14px;
+  color: #777777;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
