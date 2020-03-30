@@ -279,7 +279,8 @@ body {
     padding: 10px;
   }
   .splash {
-    height: 100vh;
+    height: auto;
+    padding-bottom: 350px;
   }
   .splash .splash_inner {
     margin-top: 30px;
